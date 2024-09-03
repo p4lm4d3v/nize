@@ -6,10 +6,10 @@ class Pink {
   NizeColor popApricot = NizeColor.fromRGB(255, 94, 94);
   NizeColor roseBerry = NizeColor.fromRGB(226, 60, 100);
 
-  List<NizeColor> get all => [
-        truePink,
-        candyFloss,
-        popApricot,
-        roseBerry,
+  List<NameDynamic> get all => [
+        NameDynamic("truePink", truePink),
+        NameDynamic("candyFloss", candyFloss),
+        NameDynamic("popApricot", popApricot),
+        NameDynamic("roseBerry", roseBerry),
       ];
 }

@@ -9,13 +9,13 @@ class Green {
   NizeColor scandinavianClovers = NizeColor.fromRGB(235, 250, 219);
   NizeColor pineShade = NizeColor.fromRGB(41, 62, 51);
 
-  List<NizeColor> get all => [
-        trueGreen,
-        forestShadow,
-        aquamarine,
-        mayanJade,
-        mintOfSpring,
-        scandinavianClovers,
-        pineShade,
+  List<NameDynamic> get all => [
+        NameDynamic("trueGreen", trueGreen),
+        NameDynamic("forestShadow", forestShadow),
+        NameDynamic("aquamarine", aquamarine),
+        NameDynamic("mayanJade", mayanJade),
+        NameDynamic("mintOfSpring", mintOfSpring),
+        NameDynamic("scandinavianClovers", scandinavianClovers),
+        NameDynamic("pineShade", pineShade),
       ];
 }

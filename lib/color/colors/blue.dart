@@ -8,12 +8,12 @@ class Blue {
   NizeColor coldSteel = NizeColor.fromRGB(227, 237, 248);
   NizeColor midnightSapphire = NizeColor.fromRGB(11, 22, 35);
 
-  List<NizeColor> get all => [
-        trueBlue,
-        midnight,
-        deepNavy,
-        cloudWisp,
-        coldSteel,
-        midnightSapphire,
+  List<NameDynamic> get all => [
+        NameDynamic("trueBlue", trueBlue),
+        NameDynamic("midnight", midnight),
+        NameDynamic("deepNavy", deepNavy),
+        NameDynamic("cloudWisp", cloudWisp),
+        NameDynamic("coldSteel", coldSteel),
+        NameDynamic("midnightSapphire", midnightSapphire),
       ];
 }

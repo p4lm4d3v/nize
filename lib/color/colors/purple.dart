@@ -5,9 +5,9 @@ class Purple {
   NizeColor lavenderWhip = NizeColor.fromRGB(250, 245, 255);
   NizeColor velvetAubergine = NizeColor.fromRGB(25, 11, 20);
 
-  List<NizeColor> get all => [
-        truePurple,
-        lavenderWhip,
-        velvetAubergine,
+  List<NameDynamic> get all => [
+        NameDynamic("truePurple", truePurple),
+        NameDynamic("lavenderWhip", lavenderWhip),
+        NameDynamic("velvetAubergine", velvetAubergine),
       ];
 }

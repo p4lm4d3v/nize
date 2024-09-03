@@ -32,3 +32,10 @@ part 'palette/palettes.dart';
 part 'palette/nize_palette.dart';
 
 part 'palette/palettes/aurora_forest.dart';
+
+class NameDynamic {
+  final String name;
+  final dynamic data;
+
+  NameDynamic(this.name, this.data);
+}

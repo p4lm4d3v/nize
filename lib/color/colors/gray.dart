@@ -7,11 +7,11 @@ class Gray {
   NizeColor timelessGray = NizeColor.fromRGB(118, 127, 125);
   NizeColor silverCloud = NizeColor.fromRGB(194, 203, 201);
 
-  List<NizeColor> get all => [
-        trueGray,
-        darkSlate,
-        charcoal,
-        timelessGray,
-        silverCloud,
+  List<NameDynamic> get all => [
+        NameDynamic("trueGray", trueGray),
+        NameDynamic("darkSlate", darkSlate),
+        NameDynamic("charcoal", charcoal),
+        NameDynamic("timelessGray", timelessGray),
+        NameDynamic("silverCloud", silverCloud),
       ];
 }

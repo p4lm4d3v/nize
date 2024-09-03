@@ -7,11 +7,11 @@ class Black {
   NizeColor rich = NizeColor.fromRGB(2, 13, 25);
   NizeColor slateShadow = NizeColor.fromRGB(16, 20, 21);
 
-  List<NizeColor> get all => [
-        trueBlack,
-        oil,
-        obsidian,
-        rich,
-        slateShadow,
+  List<NameDynamic> get all => [
+        NameDynamic("trueBlack", trueBlack),
+        NameDynamic("oil", oil),
+        NameDynamic("obsidian", obsidian),
+        NameDynamic("rich", rich),
+        NameDynamic("slateShadow", slateShadow),
       ];
 }

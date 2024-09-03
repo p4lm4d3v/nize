@@ -6,10 +6,10 @@ class Brown {
   NizeColor earthlyMocha = NizeColor.fromRGB(17, 9, 4);
   NizeColor chocolateNoir = NizeColor.fromRGB(38, 38, 32);
 
-  List<NizeColor> get all => [
-        trueBrown,
-        poop,
-        earthlyMocha,
-        chocolateNoir,
+  List<NameDynamic> get all => [
+        NameDynamic("trueBrown", trueBrown),
+        NameDynamic("poop", poop),
+        NameDynamic("earthlyMocha", earthlyMocha),
+        NameDynamic("chocolateNoir", chocolateNoir),
       ];
 }

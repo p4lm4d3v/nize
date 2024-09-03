@@ -5,9 +5,9 @@ class Yellow {
   NizeColor neoSolar = NizeColor.fromRGB(232, 227, 0);
   NizeColor mayLemon = NizeColor.fromRGB(255, 212, 100);
 
-  List<NizeColor> get all => [
-        trueYellow,
-        neoSolar,
-        mayLemon,
+  List<NameDynamic> get all => [
+        NameDynamic("trueYellow", trueYellow),
+        NameDynamic("neoSolar", neoSolar),
+        NameDynamic("mayLemon", mayLemon),
       ];
 }
