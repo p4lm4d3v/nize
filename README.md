@@ -28,6 +28,10 @@ Widget myContainer() {
 }
 ```
 
+### NizeGradients (WIP)
+
+### NizePalettes (WIP)
+
 # Contents
 
 - [Colors](https://github.com/p4lm4d3v/nize/tree/main/md/COLORS.md)
