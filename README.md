@@ -28,9 +28,13 @@ Widget myContainer() {
 }
 ```
 
-### NizeGradients (WIP)
+### NizeGradients 
 
-### NizePalettes (WIP)
+```(WIP)```
+
+### NizePalettes 
+
+```(WIP)```
 
 # Contents
 
